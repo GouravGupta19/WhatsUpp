@@ -1,25 +1,29 @@
-💬 Real-Time Chat Application
-A full-stack real-time chat application that allows users to engage in private conversations, with features like online/offline status, typing indicators, and secure messaging. Built using the MERN stack with Socket.IO for seamless real-time communication.
+# 💬 Real-Time Chat Application
 
-🚀 Features
-🔐 User Authentication using JWT
+A full-stack real-time chat application that allows users to engage in **private conversations**, with features like **online/offline status**, **typing indicators**, and **secure messaging**. Built using the **MERN stack** with **Socket.IO** for seamless real-time communication.
 
-💬 One-to-One Private Messaging
+---
 
-✍️ Typing Indicators
+## 🚀 Features
 
-🟢 Online/Offline User Status
+- 🔐 User Authentication using **JWT**
+- 💬 One-to-One Private Messaging
+- ✍️ Typing Indicators
+- 🟢 Online/Offline User Status
+- 🔄 Real-Time Message Delivery via **Socket.IO**
+- 🗃️ Scalable **MongoDB** Schema for users & messages
 
-🔄 Real-Time Message Delivery via Socket.IO
+---
 
-🗃️ Scalable MongoDB Schema for users & messages
+## 🛠️ Tech Stack
 
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Real-Time Communication:** Socket.IO
+- **Authentication:** JWT
 
-| Tech           | Usage                                  |
-| -------------- | -------------------------------------- |
-| **React.js**   | Frontend UI                            |
-| **Node.js**    | Backend runtime                        |
-| **Express.js** | RESTful APIs                           |
-| **MongoDB**    | NoSQL database for users & messages    |
-| **Socket.IO**  | Real-time WebSocket communication      |
-| **JWT**        | Authentication and secure tokenization |
+---
+
+## 📁 Folder Structure
+

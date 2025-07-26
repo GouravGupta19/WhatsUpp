@@ -57,7 +57,6 @@
 
 <p align="left">
 ✨ Real-time messaging with instant updates<br>
-✍️ Typing indicators to show who's typing<br>
 🟢 Online/offline user status<br>
 🔐 JWT-based authentication for secure sessions<br>
 🧠 Scalable MongoDB schema for users and messages<br>

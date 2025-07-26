@@ -1,29 +1,39 @@
-# 💬 Real-Time Chat Application
+<h1 align="left">Hey 👋 What's up?</h1>
 
-A full-stack real-time chat application that allows users to engage in **private conversations**, with features like **online/offline status**, **typing indicators**, and **secure messaging**. Built using the **MERN stack** with **Socket.IO** for seamless real-time communication.
+###
 
----
+<p align="left">My name is ... and I'm a ..., from ....</p>
 
-## 🚀 Features
+###
 
-- 🔐 User Authentication using **JWT**
-- 💬 One-to-One Private Messaging
-- ✍️ Typing Indicators
-- 🟢 Online/Offline User Status
-- 🔄 Real-Time Message Delivery via **Socket.IO**
-- 🗃️ Scalable **MongoDB** Schema for users & messages
+<h2 align="left">About me</h2>
 
----
+###
 
-## 🛠️ Tech Stack
+<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
 
-- **Frontend:** React.js
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Real-Time Communication:** Socket.IO
-- **Authentication:** JWT
+###
 
----
+<h2 align="left">I code with</h2>
 
-## 📁 Folder Structure
+###
 
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="40" alt="nestjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
+</div>
+
+###

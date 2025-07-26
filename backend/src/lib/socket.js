@@ -5,7 +5,7 @@ import express from "express";
 const app = express();
 const server = http.createServer(app);
 
-const io = new Server(server, {
+const io = new Server(server, { 
   cors: {
     origin: ["http://localhost:5173"],
   },
@@ -13,6 +13,10 @@ const io = new Server(server, {
 
 //used to store online users
 const userSocketMap = {}; //{userId : socketId}
+/*
+This is a plain JavaScript object that maps each user's ID to their socket connection ID.
+It helps track which users are currently online, and how to send messages to a specific user.
+*/
 
 export function getReceiverSocketId(userId) {
   return userSocketMap[userId];

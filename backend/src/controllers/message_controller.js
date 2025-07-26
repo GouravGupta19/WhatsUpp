@@ -10,7 +10,7 @@ export const getUsersForSidebar = async (req, res) => {
     }).select("-password");
     res.status(200).json(filteredUsers);
   } catch (err) {
-    console.error("Error in getUsersForSidebar: ", error.message);
+    console.error("Error in getUsersForSidebar: ", err.message);
     res.status(500).json({ error: "Internal server error" });
   }
 };
@@ -36,7 +36,7 @@ export const getMessages = async (req, res) => {
 export const sendMessage = async (req, res) => {
   try {
     const { text } = req.body;
-    const { id: receiverId } = req.params;
+    const { id: receiverId } = req.params; 
     const senderId = req.user._id;
 
     const newMessage = new Message({
@@ -51,10 +51,11 @@ export const sendMessage = async (req, res) => {
     const receiverSocketId = getReceiverSocketId(receiverId);
     if (receiverSocketId) {
       io.to(receiverSocketId).emit("newMessage", newMessage);
+      //This pushes the new message instantly to the receiver's chat screen.
     }
 
     res.status(201).json(newMessage);
-  } catch (err) {
+  } catch (error) {
     console.log("Error in sendMessage controller: ", error.message);
     res.status(500).json({ error: "Internal server error" });
   }

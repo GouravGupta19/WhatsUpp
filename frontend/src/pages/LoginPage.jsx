@@ -14,7 +14,6 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
-    fullName: "",
     email: "",
     password: "",
   });
@@ -31,9 +30,6 @@ const LoginPage = () => {
         {/* Header */}
         <div className="text-center space-y-3">
           <div className="flex justify-center">
-            <div className="size-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-              <MessageSquare className="size-6 text-primary" />
-            </div>
           </div>
           <h1 className="text-3xl font-bold">Welcome Back</h1>
           <p className="text-base text-base-content/60">

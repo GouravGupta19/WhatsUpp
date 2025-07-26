@@ -44,9 +44,6 @@ const SignUpPage = () => {
         {/* Header */}
         <div className="text-center space-y-3">
           <div className="flex justify-center">
-            <div className="size-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-              <MessageSquare className="size-6 text-primary" />
-            </div>
           </div>
           <h1 className="text-3xl font-bold">Create Account</h1>
           <p className="text-base text-base-content/60">

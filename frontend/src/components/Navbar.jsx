@@ -16,7 +16,7 @@ const Navbar = () => {
               to="/"
               className="flex items-center gap-2.5 hover:opacity-80 transition-all"
             >
-              <h1 className="text-lg font-bold">WhatsUpp</h1>
+              <h1 className="text-lg font-bold">Echo</h1>
             </Link>
           </div>
           <div className="flex items-center gap-2">

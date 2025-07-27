@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">A full-stack real-time chat application enabling users to have secure, private, and instant conversations. Built using the MERN stack and powered by Socket.IO for real-time bi-directional communication.</p>
+<p align="left">Echo is a full-stack real-time chat application enabling users to have secure, private, and instant conversations. Built using the MERN stack and powered by Socket.IO for real-time bi-directional communication.</p>
 
 ###
 
